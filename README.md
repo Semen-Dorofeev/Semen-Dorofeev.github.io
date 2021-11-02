@@ -1,2 +1,2 @@
-# Semen-Dorofeev.github.io
+# Семён Дорофеев
 Мой первый сайт
