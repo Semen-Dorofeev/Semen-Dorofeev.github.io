@@ -111,9 +111,8 @@ nav{
     padding: 12px 30px;
     font-size: 16px;
     border-radius: 8%;
-    margin: 35px 876px 0px 887px;
+    margin: 35px 870px 0px 880px;
 }
-
 
 .main3{
 	width: 100%;
@@ -155,5 +154,17 @@ nav{
 
 
 .description{
-	padding-left: 418px;
+	float: left;
+}
+
+.web-d{
+	padding-left: 486px;
+	padding-right: 1295px;
+	padding-top: 36px;
+}
+
+.razrab{
+	padding-left: 782px;
+	padding-right: 1000px;
+	
 }
