@@ -97,7 +97,7 @@
 	<div class="heading4">Расчет стоимости</div>
 	<div class="tabler"></div><form action="#"></form>
 	   <div class="headingT1"><div class="headingT11">Тип сайта</div>
-	   <div class="select1"><select name="" id="">
+	   <select class="types">
 	   	<option value="Opt1">Выберите пункт...</option>
 	   	<option value="Opt2">Option 1</option>
 	   	<option value="Opt3">Option 2</option>
@@ -105,7 +105,7 @@
 	   </div>
 	   </div>
 	   <div class="headingT2"><div class="headingT22">Дизайн</div>
-	   <div class="select2"><select name="" id="">
+	   <select class="dezign">
 	   	<option value="Opt1">Выберите пункт...</option>
 	   	<option value="Opt2">Option 1</option>
 	   	<option value="Opt3">Option 2</option>
@@ -113,12 +113,11 @@
 	   </div>
 	   </div>
 	   <div class="headingT3"><div class="headingT33">Адаптивность</div>
-	   <div class="select3"><select name="" id="">
+	   <select class="addap">
 	   	<option value="Opt1">Выберите пункт...</option>
 	   	<option value="Opt2">Option 1</option>
 	   	<option value="Opt3">Option 2</option>
 	   </select>
-	   </div>
 	   </div>
 	   </div>
 	   <div class="line"><img src="img/line.png" alt=""></div>
@@ -162,17 +161,17 @@
 	<div class="heading7">Мои контакты</div>
     <div class="underline7"><img src="img/underline.jpg" alt=""></div>
     <div class="kontakts2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, minima.</span></div>
-   <div class="geo"><img src="img/geo.png" alt="">
+   <div class="bl"><div class="geo"><img src="img/geo.png" alt="">
     <div class="geo2"><span>Санкт-Петербург<br> Невский проспект 11</span></div></div>
     <div class="email"><img src="img/email.png" alt="">
     <div class="email2"><span>Dorofeev-semka@mail.ru</span></div></div>
     <div class="truba"><img src="img/truba.png" alt="">
-    <div class="truba2"><span>+7 963 574-83-44</span></div></div>
+    <div class="truba2"><span>+7 963 574-83-44</span></div></div></div>
     <div class="ostsms"><span>ОТАВЬТЕ МНЕ СООБЩЕНИЕ</span></div> 
    <form action="#">
-	<div class="namesms"><input type="text" name="text_unput" placeholder="Имя"></div>
-	<div class="pochta"><input type="text" name="text_unput" placeholder="Email"></div>
-	<div class="sms"><textarea name="namel" id="" cols="30" rows="10" placeholder="Сообщение"></textarea></div>
+	<div class="namesms"><input type="text" class="name_sms" placeholder="Имя">
+	<input type="text" class="pochta" placeholder="Email"></div>
+	<textarea class="sms" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
    </form>
    <div class="otpravit"><input type="submit" value="Отправить"></div>
 </div>    
